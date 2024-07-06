@@ -1,10 +1,24 @@
 Analogy:
 
-Imagine we have a row of books of different heights, and we want to sort them from shortest to tallest. Here's how bubble sort works in simple terms:
+Imagine you have a row of books of different heights, and you want to sort them from shortest to tallest. Here's how bubble sort works in simple terms:
 
-Start at the beginning: Look at the first two books.
-Compare and swap: If the first book is taller than the second book, swap them so the shorter one is first.
-Move to the next pair: Move to the next pair of books (the second and third books now) and repeat the comparison and swap if needed.
-Repeat until the end: Continue this process until you reach the end of the row.
-Go back to the start: Once you’ve gone through the whole row, start again from the beginning.
-Keep sorting: Repeat this entire process until you can go through the whole row without needing to make any swaps. This means all the books are now sorted from shortest to tallest.
+- Start at the beginning: Look at the first two books.
+- Compare and swap: If the first book is taller than the second book, swap them so the shorter one is first.
+- Move to the next pair: Move to the next pair of books (the second and third books now) and repeat the comparison and swap if needed.
+- Repeat until the end: Continue this process until you reach the end of the row.
+- Go back to the start: Once you’ve gone through the whole row, start again from the beginning.
+- Keep sorting: Repeat this entire process until you can go through the whole row without needing to make any swaps. This means all the books are now sorted from shortest to tallest.
+The reason it’s called "bubble sort" is that during the sorting process, the taller books (like bubbles) gradually move to the end of the row, while the shorter books settle at the beginning, just like bubbles rising to the surface.
+
+Here's a quick example with book heights represented by numbers:
+
+Original order: 5, 3, 8, 4, 2
+First pass: compare 5 and 3 (swap), 3 and 8 (no swap), 8 and 4 (swap), 8 and 2 (swap)
+    Result after first pass: 3, 5, 4, 2, 8
+Second pass: compare 3 and 5 (no swap), 5 and 4 (swap), 5 and 2 (swap), 5 and 8 (no swap)
+    Result after second pass: 3, 4, 2, 5, 8
+Third pass: compare 3 and 4 (no swap), 4 and 2 (swap), 4 and 5 (no swap), 5 and 8 (no swap)
+    Result after third pass: 3, 2, 4, 5, 8
+Fourth pass: compare 3 and 2 (swap), 3 and 4 (no swap), 4 and 5 (no swap), 5 and 8 (no swap)
+    Result after fourth pass: 2, 3, 4, 5, 8
+Since no more swaps are needed, the books are now sorted!

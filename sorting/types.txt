@@ -1,0 +1,40 @@
+Selection Sort:
+    Repeatedly finds the minimum element from the unsorted part and puts it at the beginning.
+    Simple but inefficient for large lists.
+
+Insertion Sort:
+
+    Builds the final sorted array one item at a time.
+    Efficient for small data sets and mostly sorted data.
+
+Merge Sort:
+    Divides the array into halves, sorts each half, and then merges the sorted halves.
+    Efficient and stable with a time complexity of O(n log n).
+
+Quick Sort:
+    Picks a "pivot" element and partitions the array around the pivot, placing it in its correct position.
+    Efficient on average with a time complexity of O(n log n), but can degrade to O(n^2) in the worst case.
+
+Heap Sort:
+    Converts the array into a heap data structure and then repeatedly extracts the maximum element.
+    Efficient with a time complexity of O(n log n) but not stable.
+
+Radix Sort:
+    Sorts numbers by processing individual digits.
+    Efficient for sorting numbers and has a linear time complexity of O(nk) where k is the number of digits in the largest number.
+
+Counting Sort:
+    Counts the number of occurrences of each element and calculates the position of each element in the sorted array.
+    Efficient for sorting integers within a limited range and has a linear time complexity of O(n+k) where k is the range of the input.
+
+Bucket Sort:
+    Divides the array into several buckets, sorts each bucket individually, and then concatenates them.
+    Efficient when the input is uniformly distributed.
+
+Shell Sort:
+    Generalizes insertion sort by comparing elements separated by a gap that decreases over time.
+    More efficient than insertion sort for large lists.
+
+Tim Sort:
+    A hybrid sorting algorithm derived from merge sort and insertion sort.
+    Used in Python’s and Java’s standard library for sorting.

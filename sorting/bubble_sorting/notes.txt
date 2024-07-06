@@ -1,6 +1,6 @@
 Analogy:
 
-Imagine you have a row of books of different heights, and you want to sort them from shortest to tallest. Here's how bubble sort works in simple terms:
+Imagine we have a row of books of different heights, and ywe want to sort them from shortest to tallest. Here's how bubble sort works in simple terms:
 
 - Start at the beginning: Look at the first two books.
 - Compare and swap: If the first book is taller than the second book, swap them so the shorter one is first.

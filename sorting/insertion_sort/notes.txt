@@ -1,4 +1,4 @@
-Imagine you have a row of books of different heights, and you want to sort them from shortest to tallest. Here's how insertion sort works:
+Imagine we have a row of books of different heights, and we want to sort them from shortest to tallest. Here's how insertion sort works:
 
 - Start with the first book: Assume the first book on the shelf is already sorted.
 - Pick the next book: Take the next book in the row.

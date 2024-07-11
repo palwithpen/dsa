@@ -1,13 +1,12 @@
-Selection Sort:
+Selection Sort: ✅
     Repeatedly finds the minimum element from the unsorted part and puts it at the beginning.
     Simple but inefficient for large lists.
 
-Insertion Sort:
-
+Insertion Sort: ✅
     Builds the final sorted array one item at a time.
     Efficient for small data sets and mostly sorted data.
 
-Merge Sort:
+Merge Sort:  ✅
     Divides the array into halves, sorts each half, and then merges the sorted halves.
     Efficient and stable with a time complexity of O(n log n).
 

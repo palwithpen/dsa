@@ -1,0 +1,19 @@
+Analogy:
+Imagine you have a shelf filled with books of different heights, and you want to arrange them from shortest to tallest. Let's say the heights of the books are whole numbers (integers) ranging from 1 to 10.
+
+- Counting Heights:
+    First, you prepare a set of 10 bins or containers labeled from 1 to 10. Each bin corresponds to a possible height of the books.
+    You go through all the books on the shelf and place a marker or a count in the corresponding bin for each book's height.
+    For example, if you have a book of height 5, you put a marker in the bin labeled 5.
+
+- Counting Markers:
+    After placing all the markers, each bin now contains a count of how many books are of that particular height.
+    For example, if there are 3 books of height 5, the bin labeled 5 will have 3 markers.
+
+- Arranging Books:
+    Next, you go through the bins in order from 1 to 10.
+    For each bin, you take out the markers and place the corresponding number of books on the shelf in sorted order.
+    If the bin labeled 5 has 3 markers, you place 3 books of height 5 on the shelf.
+
+- Final Sorted Shelf:
+    By the end of this process, the books are arranged on the shelf from shortest to tallest based on the counts from the bins.

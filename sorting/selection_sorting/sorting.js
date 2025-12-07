@@ -19,5 +19,5 @@ function selection_sort(arr) {
 
 const arr = [64, 25, 12, 22, 11];
 console.log("Original array:", arr);
-const sortedArr = selectionSort(arr);
+const sortedArr = selection_sort(arr);
 console.log("Sorted array:", sortedArr);
